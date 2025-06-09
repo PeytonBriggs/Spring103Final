@@ -1,10 +1,10 @@
 # Spring103Final
-//When this blue pattern shows this shows that the game is starting
-/This section shows the beginning settings of the game for when it initally starts or is reset
-//The score starts at 0 and the level starts at one. The reaction time is initally 1500ms or 1.5s
-//The game will also start by printing "Game started!" In the serial monitor
-//This section outlines declaring the color of the LEDs for the game. 
-//The first line picks a random pixel while the second line randomly decides if that pixel will be red or green. 
-//This section determines if the player gave the correct input
-//(If they pressed the left button if the light was green)
-//(tapped the board if the led was red)
+//the score starts at 0 and goes up to 5
+//shake the board to start the game
+//once the game has started the cerial monitor will print "game started"
+//the player has three seconds to respond
+//when light is green press the left button
+//when light is red press the right button
+//if you get to level 5 it will show your score.
+//if you press incorectly or mess up it will say "Wrong or too slow! Game over."
+//once game is over all blue lights will show and you can shake the board to restart
